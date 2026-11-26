@@ -1,0 +1,66 @@
+/* Kolory strony "Świąteczne pierniczki" - układ robi Bootstrap */
+
+body {
+  background-color: #fff4e0;
+  color: #4a2c12;
+}
+
+/* nawigacja i stopka */
+nav,
+footer {
+  background-color: #6b3e1b;
+}
+
+footer {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  color: #ffd27a;
+}
+
+/* nagłówki */
+h1,
+h2 {
+  color: #8a2b1c;
+}
+
+/* lista do ozdabiania */
+.list-group {
+  --bs-list-group-bg: #ffe2b0;
+  --bs-list-group-color: #4a2c12;
+  --bs-list-group-border-color: #e6b86a;
+}
+
+/* tabela */
+.table {
+  --bs-table-color: #4a2c12;
+  --bs-table-bg: #ffe9c4;
+  --bs-table-striped-bg: #ffdca0;
+  --bs-table-striped-color: #4a2c12;
+  --bs-table-border-color: #e6b86a;
+}
+
+#tabela1 thead {
+  --bs-table-bg: #8a2b1c;
+  --bs-table-color: #ffffff;
+}
+
+/* przycisk */
+.btn {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #8a2b1c;
+  --bs-btn-border-color: #8a2b1c;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #6e2115;
+  --bs-btn-hover-border-color: #6e2115;
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: #6e2115;
+  --bs-btn-active-border-color: #6e2115;
+}
+
+/* zaznaczone pole formularza */
+.form-check-input:checked {
+  background-color: #8a2b1c;
+  border-color: #8a2b1c;
+}

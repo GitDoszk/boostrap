@@ -1,0 +1,62 @@
+/* Kolory strony - układ robi Bootstrap, tutaj są tylko kolory */
+
+body {
+  background-color: #f8f4ec;
+  color: #2b2b2b;
+}
+
+/* nawigacja */
+nav {
+  background-color: #b3001b;
+}
+
+/* baner */
+#div1 {
+  background-color: #165b33;
+  color: #ffffff;
+}
+
+/* nagłówki sekcji i tytuły kart */
+h2 {
+  color: #b3001b;
+}
+
+.card {
+  --bs-card-border-color: #b3001b;
+}
+
+.card-title {
+  color: #165b33;
+}
+
+/* tabela */
+#tabela1 thead {
+  --bs-table-bg: #165b33;
+  --bs-table-color: #ffffff;
+}
+
+/* przyciski */
+.btn {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #b3001b;
+  --bs-btn-border-color: #b3001b;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #8a0015;
+  --bs-btn-hover-border-color: #8a0015;
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: #8a0015;
+  --bs-btn-active-border-color: #8a0015;
+}
+
+/* zaznaczone pola formularza */
+.form-check-input:checked {
+  background-color: #b3001b;
+  border-color: #b3001b;
+}
+
+/* komunikat po wysłaniu */
+.alert {
+  --bs-alert-color: #0f3d22;
+  --bs-alert-bg: #d9efe1;
+  --bs-alert-border-color: #165b33;
+}

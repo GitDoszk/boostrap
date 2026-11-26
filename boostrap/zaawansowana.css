@@ -1,0 +1,131 @@
+/* Kolory strony "Zimowy Jarmark" - układ robi Bootstrap */
+
+body {
+  background-color: #0b1d3a;
+  color: #f1f5ff;
+}
+
+/* nawigacja i stopka */
+nav,
+footer {
+  background-color: #050e1f;
+}
+
+footer {
+  color: #aab7d6;
+}
+
+.navbar-brand {
+  color: #f5c518;
+}
+
+/* baner */
+#div1 {
+  background-color: #102a54;
+}
+
+/* złote nagłówki */
+h1,
+h2,
+#odliczanie1 {
+  color: #f5c518;
+}
+
+/* karty */
+.card {
+  --bs-card-bg: #12294f;
+  --bs-card-color: #f1f5ff;
+  --bs-card-border-color: #f5c518;
+}
+
+/* karuzela */
+.carousel-item {
+  color: #ffffff;
+}
+
+.carousel-item:nth-child(1) {
+  background-color: #b3001b;
+}
+
+.carousel-item:nth-child(2) {
+  background-color: #165b33;
+}
+
+.carousel-item:nth-child(3) {
+  background-color: #1f4e9c;
+}
+
+/* akordeon */
+.accordion {
+  --bs-accordion-bg: #12294f;
+  --bs-accordion-color: #f1f5ff;
+  --bs-accordion-border-color: #2c4a80;
+  --bs-accordion-btn-bg: #fff7d6;
+  --bs-accordion-btn-color: #0b1d3a;
+  --bs-accordion-active-bg: #f5c518;
+  --bs-accordion-active-color: #0b1d3a;
+}
+
+/* tabela */
+.table {
+  --bs-table-color: #f1f5ff;
+  --bs-table-bg: transparent;
+  --bs-table-border-color: #2c4a80;
+  --bs-table-striped-bg: rgba(255, 255, 255, 0.06);
+  --bs-table-striped-color: #f1f5ff;
+  --bs-table-hover-bg: rgba(245, 197, 24, 0.15);
+  --bs-table-hover-color: #f1f5ff;
+}
+
+#tabela1 thead {
+  --bs-table-bg: #f5c518;
+  --bs-table-color: #0b1d3a;
+}
+
+/* lista programu */
+.list-group {
+  --bs-list-group-bg: #12294f;
+  --bs-list-group-color: #f1f5ff;
+  --bs-list-group-border-color: #2c4a80;
+}
+
+/* plakietki */
+.badge {
+  background-color: #f5c518;
+  color: #0b1d3a;
+}
+
+/* menu rozwijane */
+.dropdown-menu {
+  --bs-dropdown-bg: #12294f;
+  --bs-dropdown-color: #f1f5ff;
+  --bs-dropdown-link-color: #f1f5ff;
+  --bs-dropdown-link-hover-bg: #f5c518;
+  --bs-dropdown-link-hover-color: #0b1d3a;
+  --bs-dropdown-border-color: #f5c518;
+}
+
+/* okno modalne */
+.modal-content {
+  --bs-modal-bg: #12294f;
+  --bs-modal-color: #f1f5ff;
+}
+
+/* przyciski */
+.btn {
+  --bs-btn-color: #0b1d3a;
+  --bs-btn-bg: #f5c518;
+  --bs-btn-border-color: #f5c518;
+  --bs-btn-hover-color: #0b1d3a;
+  --bs-btn-hover-bg: #ffd84d;
+  --bs-btn-hover-border-color: #ffd84d;
+  --bs-btn-active-color: #0b1d3a;
+  --bs-btn-active-bg: #ffd84d;
+  --bs-btn-active-border-color: #ffd84d;
+}
+
+/* zaznaczone pola formularza */
+.form-check-input:checked {
+  background-color: #f5c518;
+  border-color: #f5c518;
+}
